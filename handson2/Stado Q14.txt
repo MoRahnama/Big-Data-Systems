@@ -1,0 +1,75 @@
+Stado -> select 100.00 * sum(case when p_type like 'PROMO%' then l_extendedprice * (1 - l_discount) else 0 end) /
+sum(l_extendedprice * (1 - l_discount)) as promo_revenue from lineitem, part where l_partkey = p_partkey and
+l_shipdate >= date '1995-03-01' and l_shipdate < (date '1995-03-01' + interval '1 month');Stado -> Stado -> 
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
++------------------+
+|  promo_revenue   |
++------------------+
+| 16.3006349825496 |
++------------------+
+1 row(s).
+ Response time: 0m 5s 793ms  Total time: 0m 5s 793ms
+
+Stado -> select 100.00 * sum(case when p_type like 'PROMO%' then l_extendedprice * (1 - l_discount) else 0 end) /
+sum(l_extendedprice * (1 - l_discount)) as promo_revenue from lineitem, part where l_partkey = p_partkey and
+l_shipdate >= date '1995-03-01' and l_shipdate < (date '1995-03-01' + interval '1 month');Stado -> Stado -> 
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
++------------------+
+|  promo_revenue   |
++------------------+
+| 16.3006349825496 |
++------------------+
+1 row(s).
+ Response time: 0m 2s 323ms  Total time: 0m 2s 324ms
+
+Stado -> select 100.00 * sum(case when p_type like 'PROMO%' then l_extendedprice * (1 - l_discount) else 0 end) /
+sum(l_extendedprice * (1 - l_discount)) as promo_revenue from lineitem, part where l_partkey = p_partkey and
+l_shipdate >= date '1995-03-01' and l_shipdate < (date '1995-03-01' + interval '1 month');Stado -> Stado -> 
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
++------------------+
+|  promo_revenue   |
++------------------+
+| 16.3006349825496 |
++------------------+
+1 row(s).
+ Response time: 0m 1s 978ms  Total time: 0m 1s 978ms
+
+Stado -> select 100.00 * sum(case when p_type like 'PROMO%' then l_extendedprice * (1 - l_discount) else 0 end) /
+sum(l_extendedprice * (1 - l_discount)) as promo_revenue from lineitem, part where l_partkey = p_partkey and
+l_shipdate >= date '1995-03-01' and l_shipdate < (date '1995-03-01' + interval '1 month');Stado -> Stado -> 
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
++------------------+
+|  promo_revenue   |
++------------------+
+| 16.3006349825496 |
++------------------+
+1 row(s).
+ Response time: 0m 2s 43ms  Total time: 0m 2s 45ms

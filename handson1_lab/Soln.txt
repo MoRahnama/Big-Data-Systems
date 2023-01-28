@@ -1,0 +1,129 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+Available tables in the database:
+capitals
+countries
+major_cities
+
+Running Q0: Show all the capitals from the capitals table
+
+Running Q1: Show  the name, population and area of the 5 largest countries by area (in descending order) 
+LogicalProject(Country=[$0], Population=[$1], Area=[$2])
+  LogicalSort(sort0=[$2], dir0=[DESC], fetch=[5])
+    LogicalTableScan(table=[[world, countries]])
+
+Russia 142423773 17098242
+Canada 35099836 9984670
+United States 321368864 9826675
+China 1367485388 9596960
+Brazil 204259812 8514877
+
+Running Q2: For each country that has a Megacity (i.e. city with population more than 10 million), show the name of country and the number of Megacities it has
+LogicalAggregate(group=[{1}], C=[COUNT($0)])
+  LogicalFilter(condition=[>($2, 10000000)])
+    LogicalTableScan(table=[[world, major_cities]])
+
+South Korea 1
+Pakistan 1
+Turkey 1
+China 4
+Brazil 1
+Nigeria 1
+India 2
+Russia 1
+
+Running Q3: For each country whose capital is a major city, show the name of the country, country code, capital and the population of its capital
+LogicalProject(Country=[$1], Country code=[$2], CapitalCity=[$0], CityPopulation=[$7])
+  LogicalFilter(condition=[=($0, $5)])
+    LogicalJoin(condition=[true], joinType=[inner])
+      LogicalTableScan(table=[[world, capitals]])
+      LogicalTableScan(table=[[world, major_cities]])
+
+Nigeria NG Abuja 1568900
+Ghana GH Accra 1963300
+Ethiopia ET Addis Ababa 2757700
+Algeria DZ Algiers 1977700
+Jordan JO Amman 1919000
+Turkey TR Ankara 4338600
+Madagascar MG Antananarivo 1816000
+Paraguay PY Asunción 1482200
+Iraq IQ Baghdad 5514000
+Azerbaijan AZ Baku 1116500
+Mali ML Bamako 1297300
+Thailand TH Bangkok 5104500
+Lebanon LB Beirut 2060400
+Serbia RS Belgrade 1273700
+Germany DE Berlin 3419700
+Colombia CO Bogotá 6840200
+Brazil BR Brasília 2789800
+Republic of the Congo CG Brazzaville 1115800
+Belgium BE Brussels 1138900
+Hungary HU Budapest 1741000
+Argentina AR Buenos Aires 2890200
+Romania RO Bucharest 1883400
+Venezuela VE Caracas 5808900
+Guinea GN Conakry 1767200
+Denmark DK Copenhagen 1153600
+Senegal SN Dakar 2476400
+Syria SY Damascus 1834700
+Bangladesh BD Dhaka 6725000
+Ireland IE Dublin 1024000
+Vietnam VN Hanoi 6448800
+Zimbabwe ZW Harare 1542800
+Cuba CU Havana 2106100
+Hong Kong HK Hong Kong 7097600
+Indonesia ID Jakarta 9588200
+Cameroon CM Yaoundé 1299500
+Armenia AM Yerevan 1093500
+Afghanistan AF Kabul 3290000
+Egypt EG Cairo 7734600
+Uganda UG Kampala 1353200
+Nepal NP Kathmandu 1442300
+Sudan SD Khartoum 2682500
+Ukraine UA Kiev 2797600
+Rwanda RW Kigali 1168600
+Democratic Republic of the Congo CD Kinshasa 9463800
+Malaysia MY Kuala Lumpur 1454000
+Peru PE Lima 7605800
+United Kingdom GB London 7556900
+Angola AO Luanda 2776200
+Zambia ZM Lusaka 1413000
+Spain ES Madrid 3255900
+Philippines PH Manila 1652200
+Mozambique MZ Maputo 1191600
+Mexico MX Mexico City 8851100
+Belarus BY Minsk 1921900
+Somalia SO Mogadishu 1353000
+Uruguay UY Montevideo 1338400
+Russia RU Moscow 10381200
+Chad TD N'Djamena 1092000
+Kenya KE Nairobi 2750500
+Burkina Faso BF Ouagadougou 1086500
+France FR Paris 2138600
+China CN Beijing 11716600
+Cambodia KH Phnom Penh 1501700
+North Korea KP Pyongyang 4138200
+Haiti HT Port-au-Prince 1275000
+Czech Republic CZ Prague 1243200
+South Africa ZA Pretoria 1619400
+Ecuador EC Quito 2239200
+Morocco MA Rabat 1655800
+Saudi Arabia SA Riyadh 5700000
+Italy IT Rome 2863300
+Yemen YE Sanaa 1937500
+Chile CL Santiago 4837300
+Dominican Republic DO Santo Domingo 2987000
+South Korea KR Seoul 10349300
+Singapore SG Singapore 5399200
+Bulgaria BG Sofia 1271700
+Sweden SE Stockholm 1253300
+Taiwan TW Taipei 2693700
+Uzbekistan UZ Tashkent 2140500
+Iran IR Tehran 7153300
+Georgia GE Tbilisi 1162400
+Japan JP Tokyo 8336600
+Libya LY Tripoli 1780000
+Poland PL Warsaw 1702100
+Austria AT Vienna 1691500

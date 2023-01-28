@@ -1,0 +1,92 @@
+Q4
+
+o_orderpriority order by o_orderpriority;Stado -> Stado -> 
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
++-------------------------------+
+| o_orderpriority | order_count |
++-------------------------------+
+| 1-URGENT        |       57251 |
+| 2-HIGH          |       56698 |
+| 3-MEDIUM        |       56696 |
+| 4-NOT SPECIFIED |       57004 |
+| 5-LOW           |       56555 |
++-------------------------------+
+5 row(s).
+ Response time: 0m 4s 40ms  Total time: 0m 4s 41ms
+
+Stado -> 
+Stado -> select o_orderpriority, count(*) as order_count from orders, lineitem where o_orderdate >= date '1994-01-01' and
+o_orderdate < date '1994-04-01' and l_orderkey = o_orderkey and l_commitdate < l_receiptdate group by
+o_orderpriority order by o_orderpriority;Stado -> Stado -> 
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
++-------------------------------+
+| o_orderpriority | order_count |
++-------------------------------+
+| 1-URGENT        |       57251 |
+| 2-HIGH          |       56698 |
+| 3-MEDIUM        |       56696 |
+| 4-NOT SPECIFIED |       57004 |
+| 5-LOW           |       56555 |
++-------------------------------+
+5 row(s).
+ Response time: 0m 4s 48ms  Total time: 0m 4s 48ms
+
+Stado -> select o_orderpriority, count(*) as order_count from orders, lineitem where o_orderdate >= date '1994-01-01' and
+o_orderdate < date '1994-04-01' and l_orderkey = o_orderkey and l_commitdate < l_receiptdate group by
+o_orderpriority order by o_orderpriority;Stado -> Stado -> 
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
++-------------------------------+
+| o_orderpriority | order_count |
++-------------------------------+
+| 1-URGENT        |       57251 |
+| 2-HIGH          |       56698 |
+| 3-MEDIUM        |       56696 |
+| 4-NOT SPECIFIED |       57004 |
+| 5-LOW           |       56555 |
++-------------------------------+
+5 row(s).
+ Response time: 0m 3s 705ms  Total time: 0m 3s 705ms
+
+Stado -> select o_orderpriority, count(*) as order_count from orders, lineitem where o_orderdate >= date '1994-01-01' and
+o_orderdate < date '1994-04-01' and l_orderkey = o_orderkey and l_commitdate < l_receiptdate group by
+o_orderpriority order by o_orderpriority;Stado -> Stado -> 
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
+WARNING:  there is already a transaction in progress
++-------------------------------+
+| o_orderpriority | order_count |
++-------------------------------+
+| 1-URGENT        |       57251 |
+| 2-HIGH          |       56698 |
+| 3-MEDIUM        |       56696 |
+| 4-NOT SPECIFIED |       57004 |
+| 5-LOW           |       56555 |
++-------------------------------+
+5 row(s).
+ Response time: 0m 3s 708ms  Total time: 0m 3s 712ms

@@ -1,0 +1,49 @@
+hive> SELECT location,
+    > SUM (newcases) 
+    > FROM covid19
+    > GROUP BY location
+    > HAVING SUM(newcases) > 1000000;
+Query ID = bigdata_20210316174820_40888eb4-dd5e-4668-bf92-237a86750ce8
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1615919369252_0006, Tracking URL = http://bigdatamaster:8088/proxy/application_1615919369252_0006/
+Kill Command = /home/bigdata/hadoop/hadoop-2.7.1/bin/hadoop job  -kill job_1615919369252_0006
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2021-03-16 17:48:27,142 Stage-1 map = 0%,  reduce = 0%
+2021-03-16 17:48:34,343 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.49 sec
+2021-03-16 17:48:41,584 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 3.17 sec
+MapReduce Total cumulative CPU time: 3 seconds 170 msec
+Ended Job = job_1615919369252_0006
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 3.17 sec   HDFS Read: 2904261 HDFS Write: 348 SUCCESS
+Total MapReduce CPU Time Spent: 3 seconds 170 msec
+OK
+Argentina	2149636
+Brazil	11019344
+Colombia	2276656
+Czechia	1321331
+France	3964078
+Germany	2508655
+India	11229398
+Indonesia	1379662
+Iran	1689692
+Italy	3067486
+Mexico	2128600
+Netherlands	1135258
+Peru	1364964
+Poland	1794914
+Russia	4274263
+South Africa	1521068
+Spain	3149012
+Turkey	1957192
+Ukraine	1449741
+United Kingdom	4231166
+United States	28993309
+Time taken: 22.517 seconds, Fetched: 21 row(s)

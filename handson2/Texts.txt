@@ -1,0 +1,24 @@
+gd124m01 - gd124m10
+gd124m08.cs.unb.ca
+
+mrahnama
+=^!jgt$2Y@U-9c_n4@HFLsxxA+
+
+ps -a |grep vnc
+fcs-vncserver -start 
+
+gd124m08.cs.unb.ca:1
+
+Q32 Response time: 0m 10s 432ms  Total time: 0m 13s 208ms
+
+Response time: 0m 7s 776ms  Total time: 0m 10s 505ms
+7 196ms/ 10 3ms
+6 730ms / 9 391ms
+8 22ms  / 10 710ms
+
+
+53113.551 ms
+Time: 18278.821 ms
+17244.031 ms
+Time: 18532.079 ms
+ 

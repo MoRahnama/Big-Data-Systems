@@ -1,0 +1,240 @@
+Country:string,Population:long,Area:int,Currency:string
+Afghanistan,32564342,652230,Afghani
+Egypt,88487396,1001450,Pfund
+Albania,3029278,28748,Lek
+Algeria,39542166,2381741,Dinar
+American Samoa,54343,199,Dollar
+Andorra,85580,468,Euro
+Angola,19625353,1246700,Kwanza
+Anguilla,16418,91,Dollar
+Antigua and Barbuda,92436,443,Dollar
+Equatorial Guinea,740743,28051,Franc
+Argentina,43431886,2780400,Peso
+Armenia,3056382,29743,Dram
+Aruba,112162,180,Florin
+Azerbaijan,9780780,86600,Manat
+Ethiopia,99465819,1104300,Birr
+Australia,22751014,7741220,Australian Dollar
+Bahamas,324597,13880,Dollar
+Bahrain,1346613,760,Dinar
+Bangladesh,168957745,143998,Taka
+Barbados,290604,430,Dollar
+Belarus,9589689,207600,Rubel
+Belgium,11323973,30528,Euro
+Belize,347369,22966,Dollar
+Benin,10448647,112622,Franc
+Bermuda,70196,54,Dollar
+Bhutan,741919,38394,Ngultrum
+Bolivia,10800882,1098581,Boliviano
+Bosnia and Herzegovina,3867055,51197,Konvertible Mark
+Botswana,2182719,581730,Pula
+Brazil,204259812,8514877,Real
+Brunei,429646,5765,Dollar
+Bulgaria,7186893,110879,Lew
+Burkina Faso,18931686,274200,Franc
+Burundi,10742276,27830,Franc
+Chile,17508260,756102,Peso
+China,1367485388,9596960,Yuan
+Cook Islands,9838,236,Dollar
+Costa Rica,4814144,51100,Colón
+Curacao,146836,444,Gulden
+Denmark,5581503,43094,Krone
+Democratic Republic of the Congo,79375136,2344858,Franc
+Germany,80854408,357022,Euro
+Dominica,73607,751,Dollar
+Dominican Republic,10478756,48670,Peso
+Djibouti,828324,23200,Franc
+Ecuador,15868396,283561,Dollar
+El Salvador,6141350,21041,Dollar
+Ivory Coast,23295302,322463,Franc
+Eritrea,6527689,117600,Nakfa
+Estonia,1265420,45228,Euro
+Falkland Islands,3361,12173,Pfund
+Faroe Islands,50196,1393,Krone
+Fiji,909389,18274,Fijian Dollar
+Finland,5476922,338145,Euro
+France,66553766,643801,Euro
+French Guiana,181000,83534,Euro
+French Polynesia,282703,4167,Franc
+Gabon,1705336,267667,Franc
+Gambia,1967709,11295,Dalasi
+Georgia,4931226,69700,Lari
+Ghana,26327649,238533,Ghana Cedi
+Gibraltar,29258,7,Pfund
+Grenada,110694,344,Dollar
+Greece,10775643,131957,Euro
+Greenland,57733,2166086,Krone
+Guadeloupe,456000,1628,Euro
+Guam,161785,544,Dollar
+Guatemala,14918999,108889,Quetzal
+Guernsey,66080,78,Pfund
+Guinea,11780162,245857,Franc
+Guinea-Bissau,1726170,36125,Franc
+Guyana,735222,214969,Dollar
+Haiti,10110019,27750,Gourde
+Honduras,8746673,112090,Lempira
+Hong Kong,7141106,1108,Dollar
+India,1251695584,3287263,Rupie
+Indonesia,255993674,1904569,Rupiah
+Isle of Man,87545,572,Pfund
+Iraq,37056169,438317,Dinar
+Iran,81824270,1648195,Rial
+Ireland,4892305,70273,Euro
+Iceland,331918,103000,Krone
+Israel,8049314,20770,Schekel
+Italy,61855120,301340,Euro
+Jamaica,2950210,10991,Dollar
+Japan,126919659,377915,Yen
+Yemen,26737317,527968,Rial
+Jersey,97294,116,Pfund-Sterling
+Jordan,8117564,89342,Dinar
+British Virgin Islands,33454,151,Dollar
+Virgin Islands,103574,1910,Dollar
+Cayman Islands,56092,264,Cayman-Dollar
+Cambodia,15708756,181035,Riel
+Cameroon,23739218,475440,Franc
+Canada,35099836,9984670,Canadian Dollar
+Cape Verde,545993,4033,Escudo
+Kazakhstan,18157122,2724900,Tenge
+Qatar,2194817,11586,Riyal
+Kenya,45925301,580367,Schilling
+Kyrgyzstan,5664939,199951,Som
+Kiribati,105711,811,Dollar
+Colombia,46736728,1138910,Peso
+Comoros,780971,2235,Franc
+Republic of the Congo,4755097,342000,Franc
+Kosovo,1870981,10887,Euro
+Croatia,4464844,56594,Kuna
+Cuba,11031433,110860,Peso
+Kuwait,2788534,17818,Dinar
+Laos,6911544,236800,Kip
+Lesotho,1947701,30355,Loti
+Latvia,1986705,64589,Euro
+Lebanon,6184701,10400,Pfund
+Liberia,4195666,111369,Dollar
+Libya,6411776,1759540,Dinar
+Liechtenstein,37624,160,Franken
+Lithuania,2884433,65300,Litas
+Luxembourg,570252,2586,Euro
+Macau,592731,28,Pataca
+Madagascar,23812681,587041,Ariary
+Malawi,17964697,118484,Kwacha
+Malaysia,30513848,329847,Ringgit
+Maldives,393253,298,Rufiyaa
+Mali,16955536,1240192,Franc
+Malta,413965,316,Euro
+Morocco,33322699,446550,Dirham
+Marshall Islands,72191,181,Dollar
+Martinique,395000,1128,Euro
+Mauritania,3596702,1030700,Ouguiya
+Mauritius,1339827,2040,Rupie
+Mayotte,223765,374,Euro
+Macedonia,2096015,25713,Denar
+Mexico,121736809,1964375,Peso
+"Micronesia, Federated States of",105216,702,Dollar
+Moldova,3546847,33851,Leu
+Monaco,30535,2,Euro
+Mongolia,2992908,1564116,Tögrög
+Montenegro,647073,13812,Euro
+Montserrat,5241,102,Dollar
+Mozambique,25303113,799380,Metical
+Burma,56320206,676578,Kyat
+Namibia,2212307,824292,Dollar
+Nauru,9540,21,Dollar
+Nepal,31551305,147181,Rupie
+New Caledonia,271615,18575,Franc
+New Zealand,4438393,267710,Dollar
+Nicaragua,5907881,130370,Córdoba Oro
+Netherlands,16947904,41543,Euro
+Netherlands Antilles,227049,800,Gulden
+Niger,18045729,1267000,Franc
+Nigeria,181562056,923768,Naira
+Niue,1190,260,Dollar
+North Korea,24983205,120538,Won
+Northern Mariana Islands,52344,464,Dollar
+Norfolk Island,2210,36,Dollar
+Norway,5207689,323802,Krone
+Oman,3286936,309500,Rial
+Austria,8665550,83871,Euro
+Timor-Leste,1231116,14874,Dollar
+Pakistan,199085847,796095,Rupie
+Palestine,2731052,5860,Schekel
+Palau,21265,459,Dollar
+Panama,3657024,75420,Balboa
+Papua New Guinea,6672429,462840,Kina
+Paraguay,6783272,406752,Guaraní
+Peru,30444999,1285216,Nuevo Sol
+Philippines,100998376,300000,Peso
+Poland,38562189,312685,Zloty
+Portugal,10825309,92090,Euro
+Puerto Rico,3598357,13790,Dollar
+Reunion,699000,2512,Euro
+Rwanda,12661733,26338,Franc
+Romania,21666350,238391,Leu
+Russia,142423773,17098242,Rubel
+Solomon Islands,622469,28896,Dollar
+Zambia,15066266,752618,Kwacha
+Samoa,197773,2831,Tala
+San Marino,33020,61,Euro
+Saint Barthelemy,7237,21,Euro
+Sao Tome and Principe,194006,964,Dobra
+Saudi Arabia,27752316,2149690,Riyal
+Sweden,9801616,450295,Krone
+Switzerland,8121830,41277,Franken
+Senegal,13975834,196722,Franc
+Serbia,7176794,77474,Dinar
+Seychelles,92430,455,Rupie
+Sierra Leone,5879098,71740,Leone
+Zimbabwe,14229541,390757,Dollar
+Singapore,5674472,697,Singapore Dollar
+Saint Martin,39689,54,Gulden
+Slovakia,5445027,49035,Euro
+Slovenia,1983412,20273,Euro
+Somalia,10616380,637657,Schilling
+Spain,48146134,505370,Euro
+Sri Lanka,22053488,65610,Rupie
+"Saint Helena, Ascension and Tristan da Cunha",7795,308,Pfund
+Saint Kitts and Nevis,51936,261,Dollar
+Saint Lucia,163922,616,Dollar
+Saint Pierre and Miquelon,5657,242,Euro
+Saint Vincent and the Grenadines,102627,389,Dollar
+South Africa,53675563,1219090,Rand
+Sudan,36108853,1861484,Pfund
+South Korea,49115196,99720,Won
+South Sudan,12042910,644329,Pfund
+Suriname,579633,163820,Surinamese-Dollar
+Svalbard,1872,377,Krone
+Swaziland,1435613,17364,Lilangeni
+Syria,17064854,185180,Pfund
+Tajikistan,8191958,143100,Somoni
+Taiwan,23415126,35980,Dollar
+Tanzania,51045882,947300,Schilling
+Thailand,67976405,513120,Baht
+Togo,7552318,56785,Franc
+Tokelau,1337,12,Dollar
+Tonga,106501,747,Pa'anga
+Trinidad and Tobago,1222363,5128,Dollar
+Chad,11631456,1284000,Franc
+Czech Republic,10644842,78867,Krone
+Tunisia,11037225,163610,Dinar
+Turkey,79414269,783562,Lira
+Turkmenistan,5231422,488100,Manat
+Turks and Caicos Islands,50280,948,Dollar
+Tuvalu,10869,26,Dollar
+Uganda,37101745,241038,Schilling
+Ukraine,44429471,603550,Hrywnja
+Hungary,9897541,93028,Forint
+Uruguay,3341893,176215,Peso
+Uzbekistan,29199942,447400,So'm
+Vanuatu,272264,12189,Vatu
+Holy See (Vatican City),842,0,Euro
+Venezuela,29275460,912050,Bolívar Fuerte
+United Arab Emirates,5779760,83600,Dirham
+United States,321368864,9826675,Dollar
+United Kingdom,64088222,243610,Pfund
+Vietnam,94348835,331210,Dong
+Wallis and Futuna,15613,142,Franc
+Christmas Island,1530,135,Dollar
+Western Sahara,570866,266000,Dirham
+Central African Republic,5391539,622984,Franc
+Cyprus,1189197,9251,Euro

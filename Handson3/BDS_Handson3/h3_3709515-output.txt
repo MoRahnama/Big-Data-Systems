@@ -1,0 +1,442 @@
+Afghanistan	3678034
+Afghanistan	2147483647
+Albania	418495
+Albania	2147483647
+Algeria	3415811
+Algeria	2147483647
+American Samoa	12576
+American Samoa	2147483647
+Andorra	22151
+Andorra	2147483647
+Angola	8417000
+Angola	2147483647
+Antigua And Barbuda	21926
+Antigua And Barbuda	2147483647
+Argentina	16157000
+Argentina	2147483647
+Armenia	1075800
+Armenia	2147483647
+Aruba	34980
+Aruba	2147483647
+Australia	5312163
+Australia	2147483647
+Austria	1840573
+Austria	2147483647
+Azerbaijan	2181800
+Azerbaijan	2147483647
+Bahamas, The	274400
+Bahamas, The	2147483647
+Bahrain	157474
+Bahrain	2147483647
+Bangladesh	15443000
+Bangladesh	2147483647
+Barbados	110000
+Barbados	2147483647
+Belarus	2020600
+Belarus	2147483647
+Belgium	529247
+Belgium	2147483647
+Belize	57169
+Belize	2147483647
+Benin	762000
+Benin	2147483647
+Bermuda	52320
+Bermuda	2147483647
+Bhutan	104000
+Bhutan	2147483647
+Bolivia	3151676
+Bolivia	2147483647
+Bosnia And Herzegovina	275524
+Bosnia And Herzegovina	2147483647
+Botswana	231626
+Botswana	2147483647
+Brazil	22046000
+Brazil	2147483647
+Brunei	50000
+Brunei	2147483647
+Bulgaria	1355142
+Bulgaria	2147483647
+Burkina Faso	1626950
+Burkina Faso	2147483647
+Burma	5430000
+Burma	2147483647
+Burundi	658859
+Burundi	2147483647
+Cabo Verde	127832
+Cabo Verde	2147483647
+Cambodia	2129371
+Cambodia	2147483647
+Cameroon	2446945
+Cameroon	2147483647
+Canada	5429524
+Canada	2147483647
+Cayman Islands	27704
+Cayman Islands	2147483647
+Central African Republic	734350
+Central African Republic	2147483647
+Chad	1092066
+Chad	2147483647
+Chile	7007000
+Chile	2147483647
+China	22120000
+China	2147483647
+Colombia	9464000
+Colombia	2147483647
+Comoros	111329
+Comoros	2147483647
+Congo (Brazzaville)	1827000
+Congo (Brazzaville)	2147483647
+Congo (Kinshasa)	13528000
+Congo (Kinshasa)	2147483647
+Cook Islands	5445
+Cook Islands	2147483647
+Costa Rica	288054
+Costa Rica	2147483647
+Croatia	790017
+Croatia	2147483647
+Cuba	2141652
+Cuba	2147483647
+Cura��ao	150000
+Cura��ao	2147483647
+Cyprus	330000
+Cyprus	2147483647
+Czechia	1324277
+Czechia	2147483647
+C��te D���Ivoire	4980000
+C��te D���Ivoire	2147483647
+Denmark	1085000
+Denmark	2147483647
+Djibouti	562000
+Djibouti	2147483647
+Dominica	16582
+Dominica	2147483647
+Dominican Republic	2581827
+Dominican Republic	2147483647
+Ecuador	2723665
+Ecuador	2147483647
+Egypt	19372000
+Egypt	2147483647
+El Salvador	567698
+El Salvador	2147483647
+Equatorial Guinea	250770
+Equatorial Guinea	2147483647
+Eritrea	963000
+Eritrea	2147483647
+Estonia	434562
+Estonia	2147483647
+Ethiopia	3041002
+Ethiopia	2147483647
+Falkland Islands (Islas Malvinas)	2213
+Falkland Islands (Islas Malvinas)	2147483647
+Faroe Islands	13326
+Faroe Islands	2147483647
+Fiji	88271
+Fiji	2147483647
+Finland	642045
+Finland	2147483647
+France	11020000
+France	2147483647
+French Guiana	61550
+French Guiana	2147483647
+French Polynesia	131695
+French Polynesia	2147483647
+Gabon	797003
+Gabon	2147483647
+Gambia, The	195136
+Gambia, The	2147483647
+Georgia	1118035
+Georgia	2147483647
+Germany	3644826
+Germany	2147483647
+Ghana	2291352
+Ghana	2147483647
+Gibraltar	187083
+Gibraltar	2147483647
+Greece	664046
+Greece	2147483647
+Greenland	18326
+Greenland	2147483647
+Grenada	4315
+Grenada	2147483647
+Guadeloupe	145511
+Guadeloupe	2147483647
+Guam	122411
+Guam	2147483647
+Guatemala	2450212
+Guatemala	2147483647
+Guinea	1667864
+Guinea	2147483647
+Guinea-Bissau	395954
+Guinea-Bissau	2147483647
+Guyana	200500
+Guyana	2147483647
+Haiti	987310
+Haiti	2147483647
+Honduras	1250000
+Honduras	2147483647
+Hong Kong	7347000
+Hong Kong	2147483647
+Hungary	1752286
+Hungary	2147483647
+Iceland	128793
+Iceland	2147483647
+India	29617000
+India	2147483647
+Indonesia	34540000
+Indonesia	2147483647
+Iran	13633000
+Iran	2147483647
+Iraq	5796000
+Iraq	2147483647
+Ireland	1173179
+Ireland	2147483647
+Isle Of Man	25000
+Isle Of Man	2147483647
+Israel	919438
+Israel	2147483647
+Italy	2872800
+Italy	2147483647
+Jamaica	580000
+Jamaica	2147483647
+Japan	37977000
+Japan	2147483647
+Jersey	33522
+Jersey	2147483647
+Jordan	4007526
+Jordan	2147483647
+Kazakhstan	1806833
+Kazakhstan	2147483647
+Kenya	5545000
+Kenya	2147483647
+Kiribati	28802
+Kiribati	2147483647
+Korea, North	2863000
+Korea, North	2147483647
+Korea, South	21794000
+Korea, South	2147483647
+Kosovo	204725
+Kosovo	2147483647
+Kuwait	637411
+Kuwait	2147483647
+Kyrgyzstan	1027200
+Kyrgyzstan	2147483647
+Laos	760000
+Laos	2147483647
+Latvia	698529
+Latvia	2147483647
+Lebanon	530000
+Lebanon	2147483647
+Lesotho	330790
+Lesotho	2147483647
+Liberia	1021762
+Liberia	2147483647
+Libya	1126000
+Libya	2147483647
+Liechtenstein	36281
+Liechtenstein	2147483647
+Lithuania	574147
+Lithuania	2147483647
+Luxembourg	122273
+Luxembourg	2147483647
+Macau	568700
+Macau	2147483647
+Macedonia	640000
+Macedonia	2147483647
+Madagascar	2610000
+Madagascar	2147483647
+Malawi	1895973
+Malawi	2147483647
+Malaysia	8285000
+Malaysia	2147483647
+Maldives	133019
+Maldives	2147483647
+Mali	2009109
+Mali	2147483647
+Malta	24356
+Malta	2147483647
+Marshall Islands	25400
+Marshall Islands	2147483647
+Martinique	253995
+Martinique	2147483647
+Mauritania	1077169
+Mauritania	2147483647
+Mauritius	299975
+Mauritius	2147483647
+Mayotte	32057
+Mayotte	2147483647
+Mexico	20996000
+Mexico	2147483647
+Micronesia, Federated States Of	6227
+Micronesia, Federated States Of	2147483647
+Moldova	685900
+Moldova	2147483647
+Monaco	36371
+Monaco	2147483647
+Mongolia	1396288
+Mongolia	2147483647
+Montenegro	174515
+Montenegro	2147483647
+Morocco	4370000
+Morocco	2147483647
+Mozambique	1191613
+Mozambique	2147483647
+Namibia	322500
+Namibia	2147483647
+Nepal	975453
+Nepal	2147483647
+Netherlands	1406000
+Netherlands	2147483647
+New Caledonia	93060
+New Caledonia	2147483647
+New Zealand	1467800
+New Zealand	2147483647
+Nicaragua	1028808
+Nicaragua	2147483647
+Niger	1026848
+Niger	2147483647
+Nigeria	15279000
+Nigeria	2147483647
+Northern Mariana Islands	2500
+Northern Mariana Islands	2147483647
+Norway	693494
+Norway	2147483647
+Oman	1421409
+Oman	2147483647
+Pakistan	14835000
+Pakistan	2147483647
+Palau	8744
+Palau	2147483647
+Panama	880691
+Panama	2147483647
+Papua New Guinea	364125
+Papua New Guinea	2147483647
+Paraguay	1870000
+Paraguay	2147483647
+Peru	9848000
+Peru	2147483647
+Philippines	23088000
+Philippines	2147483647
+Poland	1790658
+Poland	2147483647
+Portugal	506654
+Portugal	2147483647
+Puerto Rico	331165
+Puerto Rico	2147483647
+Qatar	1312947
+Qatar	2147483647
+Reunion	190047
+Reunion	2147483647
+Romania	1883425
+Romania	2147483647
+Russia	17125000
+Russia	2147483647
+Rwanda	745261
+Rwanda	2147483647
+Saint Kitts And Nevis	13220
+Saint Kitts And Nevis	2147483647
+Saint Lucia	70000
+Saint Lucia	2147483647
+Saint Vincent And The Grenadines	25418
+Saint Vincent And The Grenadines	2147483647
+Samoa	37708
+Samoa	2147483647
+San Marino	4040
+San Marino	2147483647
+Sao Tome And Principe	56166
+Sao Tome And Principe	2147483647
+Saudi Arabia	6881000
+Saudi Arabia	2147483647
+Senegal	1146053
+Senegal	2147483647
+Serbia	1378682
+Serbia	2147483647
+Seychelles	26450
+Seychelles	2147483647
+Sierra Leone	951000
+Sierra Leone	2147483647
+Singapore	5745000
+Singapore	2147483647
+Slovakia	429564
+Slovakia	2147483647
+Slovenia	284355
+Slovenia	2147483647
+Solomon Islands	84520
+Solomon Islands	2147483647
+Somalia	2120000
+Somalia	2147483647
+South Africa	4434827
+South Africa	2147483647
+South Georgia And South Sandwich Islands	99
+South Georgia And South Sandwich Islands	2147483647
+South Sudan	372410
+South Sudan	2147483647
+Spain	4588000
+Spain	2147483647
+Sri Lanka	752993
+Sri Lanka	2147483647
+Sudan	7282000
+Sudan	2147483647
+Suriname	223757
+Suriname	2147483647
+Swaziland	110508
+Swaziland	2147483647
+Sweden	972647
+Sweden	2147483647
+Switzerland	434008
+Switzerland	2147483647
+Syria	1834093
+Syria	2147483647
+Taiwan	2803894
+Taiwan	2147483647
+Tajikistan	780000
+Tajikistan	2147483647
+Tanzania	6698000
+Tanzania	2147483647
+Thailand	17066000
+Thailand	2147483647
+Timor-Leste	222323
+Timor-Leste	2147483647
+Togo	837437
+Togo	2147483647
+Tonga	24571
+Tonga	2147483647
+Trinidad And Tobago	83489
+Trinidad And Tobago	2147483647
+Tunisia	1200000
+Tunisia	2147483647
+Turkey	15154000
+Turkey	2147483647
+Turkmenistan	1031992
+Turkmenistan	2147483647
+Turks And Caicos Islands	5801
+Turks And Caicos Islands	2147483647
+Tuvalu	6025
+Tuvalu	2147483647
+Uganda	1659600
+Uganda	2147483647
+Ukraine	2967000
+Ukraine	2147483647
+United Arab Emirates	2502715
+United Arab Emirates	2147483647
+United Kingdom	10979000
+United Kingdom	2147483647
+United States	18713220
+United States	2147483647
+Uruguay	1319108
+Uruguay	2147483647
+Uzbekistan	2424100
+Uzbekistan	2147483647
+Vanuatu	51437
+Vanuatu	2147483647
+Vatican City	825
+Vatican City	2147483647
+Venezuela	1943901
+Venezuela	2147483647
+Vietnam	13312000
+Vietnam	2147483647
+Yemen	2957000
+Yemen	2147483647
+Zambia	1742979
+Zambia	2147483647
+Zimbabwe	1606000
+Zimbabwe	2147483647

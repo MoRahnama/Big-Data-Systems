@@ -1,0 +1,22 @@
+hive> CREATE TABLE covid19 (isocode STRING,continent STRING,location STRING,dt STRING,newcases BIGINT,newdeaths BIGINT,icupatients BIGINT,hospitalpatients BIGINT,vaccinations BIGINT)
+    > ROW FORMAT DELIMITED
+    > FIELDS TERMINATED BY ',' ;
+OK
+Time taken: 0.119 seconds
+hive> LOAD DATA LOCAL INPATH '/home/bigdata/hive/apache-hive-1.2.1-bin/examples/files/covid19-detail.txt'
+    > OVERWRITE INTO TABLE covid19;
+Loading data to table default.covid19
+Table default.covid19 stats: [numFiles=1, numRows=0, totalSize=2895692, rawDataSize=0]
+OK
+Time taken: 0.269 seconds
+hive> CREATE TABLE countries (Country STRING,Population BIGINT,Area BIGINT,Currency STRING)
+    > ROW FORMAT DELIMITED
+    > FIELDS TERMINATED BY '\;' ;
+OK
+Time taken: 0.115 seconds
+hive> LOAD DATA LOCAL INPATH '/home/bigdata/hive/apache-hive-1.2.1-bin/examples/files/countries.txt'
+    > OVERWRITE INTO TABLE countries;
+Loading data to table default.countries
+Table default.countries stats: [numFiles=1, numRows=0, totalSize=7630, rawDataSize=0]
+OK
+Time taken: 0.265 seconds

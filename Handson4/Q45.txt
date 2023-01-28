@@ -1,0 +1,49 @@
+hive> SELECT location AS country,  SUM(vaccinations) * 100 / Population AS Vacination 
+    > FROM joined 
+    > WHERE Population > 1000000
+    > Group By location, Population 
+    > ORDER BY Vacination DESC
+    > LIMIT 3;
+Query ID = bigdata_20210317031146_0ee97410-1ece-4ba8-bf6c-0d334dc660fe
+Total jobs = 2
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1615919369252_0065, Tracking URL = http://bigdatamaster:8088/proxy/application_1615919369252_0065/
+Kill Command = /home/bigdata/hadoop/hadoop-2.7.1/bin/hadoop job  -kill job_1615919369252_0065
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2021-03-17 03:11:53,426 Stage-1 map = 0%,  reduce = 0%
+2021-03-17 03:12:00,601 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.82 sec
+2021-03-17 03:12:07,853 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 3.5 sec
+MapReduce Total cumulative CPU time: 3 seconds 500 msec
+Ended Job = job_1615919369252_0065
+Launching Job 2 out of 2
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1615919369252_0066, Tracking URL = http://bigdatamaster:8088/proxy/application_1615919369252_0066/
+Kill Command = /home/bigdata/hadoop/hadoop-2.7.1/bin/hadoop job  -kill job_1615919369252_0066
+Hadoop job information for Stage-2: number of mappers: 1; number of reducers: 1
+2021-03-17 03:12:20,265 Stage-2 map = 0%,  reduce = 0%
+2021-03-17 03:12:26,442 Stage-2 map = 100%,  reduce = 0%, Cumulative CPU 0.77 sec
+2021-03-17 03:12:33,622 Stage-2 map = 100%,  reduce = 100%, Cumulative CPU 1.99 sec
+MapReduce Total cumulative CPU time: 1 seconds 990 msec
+Ended Job = job_1615919369252_0066
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 3.5 sec   HDFS Read: 1546135 HDFS Write: 4516 SUCCESS
+Stage-Stage-2: Map: 1  Reduce: 1   Cumulative CPU: 1.99 sec   HDFS Read: 9053 HDFS Write: 98 SUCCESS
+Total MapReduce CPU Time Spent: 5 seconds 490 msec
+OK
+Israel	108.69809526625498
+United Arab Emirates	84.94468628455161
+United Kingdom	32.23297878352749
+Time taken: 48.277 seconds, Fetched: 3 row(s)

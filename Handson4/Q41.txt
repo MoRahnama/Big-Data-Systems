@@ -1,0 +1,57 @@
+hive> SELECT location,
+    > SUM (newcases - newdeaths) 
+    > FROM covid19
+    > WHERE continent= 'North America'
+    > GROUP BY location;
+Query ID = bigdata_20210316172930_c1b7bef8-5357-4a09-a85d-bdbed6096544
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1615919369252_0003, Tracking URL = http://bigdatamaster:8088/proxy/application_1615919369252_0003/
+Kill Command = /home/bigdata/hadoop/hadoop-2.7.1/bin/hadoop job  -kill job_1615919369252_0003
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2021-03-16 17:29:37,858 Stage-1 map = 0%,  reduce = 0%
+2021-03-16 17:29:47,337 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 2.06 sec
+2021-03-16 17:29:55,695 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 3.45 sec
+MapReduce Total cumulative CPU time: 3 seconds 450 msec
+Ended Job = job_1615919369252_0003
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 3.45 sec   HDFS Read: 2906051 HDFS Write: 501 SUCCESS
+Total MapReduce CPU Time Spent: 3 seconds 450 msec
+OK
+Anguilla	NULL
+Antigua and Barbuda	812
+Bahamas	8405
+Barbados	3196
+Belize	12015
+Bermuda	NULL
+Canada	869901
+Cayman Islands	NULL
+Costa Rica	203757
+Cuba	55340
+Dominica	NULL
+Dominican Republic	240064
+El Salvador	58863
+Greenland	NULL
+Grenada	20
+Guatemala	172086
+Haiti	12264
+Honduras	169433
+Jamaica	25560
+Mexico	1937878
+Montserrat	NULL
+Nicaragua	6313
+Panama	338910
+Saint Kitts and Nevis	NULL
+Saint Lucia	3682
+Saint Vincent and the Grenadines	1315
+Trinidad and Tobago	7540
+Turks and Caicos Islands	NULL
+United States	28468262
+Time taken: 27.486 seconds, Fetched: 29 row(s)

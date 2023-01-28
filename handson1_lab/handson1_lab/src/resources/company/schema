@@ -1,0 +1,8 @@
+EMPLOYEE(EMPID:int,NAME:string,DEPTNO:int,GENDER:string,CITY:string,AGE:int,SLACKER:boolean,MGRID:int,JOINEDAT:date,SALARY:float)
+DEPT(DEPTNO:int,NAME:string)
+CERTIFICATE(EMPID:int, COURSEID:int,COMPLETIONDATE:date)
+COURSE(COURSEID:int,TITLE:string, CATEGORYID:int)
+CCATEGORY(CATID:int, CATNAME:string)
+capitals(CapitalCity:string,Country:string,Country code:string,Latitude:float,Longitude:float)
+countries(Country:string,Population:int;Area:int;Currency:string)
+major_cities(City:string,Country:string,CityPopulation:int)

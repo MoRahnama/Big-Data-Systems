@@ -1,0 +1,37 @@
+testdb=# select 100.00 * sum(case when p_type like 'PROMO%' then l_extendedprice * (1 - l_discount) else 0 end) /
+testdb-# sum(l_extendedprice * (1 - l_discount)) as promo_revenue from lineitem, part where l_partkey = p_partkey and
+testdb-# l_shipdate >= date '1995-03-01' and l_shipdate < (date '1995-03-01' + interval '1 month');
+    promo_revenue    
+---------------------
+ 16.3006349825496235
+(1 row)
+
+Time: 11093.017 ms
+testdb=# select 100.00 * sum(case when p_type like 'PROMO%' then l_extendedprice * (1 - l_discount) else 0 end) /
+testdb-# sum(l_extendedprice * (1 - l_discount)) as promo_revenue from lineitem, part where l_partkey = p_partkey and
+testdb-# l_shipdate >= date '1995-03-01' and l_shipdate < (date '1995-03-01' + interval '1 month');
+    promo_revenue    
+---------------------
+ 16.3006349825496235
+(1 row)
+
+Time: 10963.869 ms
+testdb=# select 100.00 * sum(case when p_type like 'PROMO%' then l_extendedprice * (1 - l_discount) else 0 end) /
+testdb-# sum(l_extendedprice * (1 - l_discount)) as promo_revenue from lineitem, part where l_partkey = p_partkey and
+testdb-# l_shipdate >= date '1995-03-01' and l_shipdate < (date '1995-03-01' + interval '1 month');
+    promo_revenue    
+---------------------
+ 16.3006349825496235
+(1 row)
+
+Time: 10996.896 ms
+testdb=# select 100.00 * sum(case when p_type like 'PROMO%' then l_extendedprice * (1 - l_discount) else 0 end) /
+testdb-# sum(l_extendedprice * (1 - l_discount)) as promo_revenue from lineitem, part where l_partkey = p_partkey and
+testdb-# l_shipdate >= date '1995-03-01' and l_shipdate < (date '1995-03-01' + interval '1 month');
+    promo_revenue    
+---------------------
+ 16.3006349825496235
+(1 row)
+
+Time: 11114.471 ms
+testdb=#

@@ -1,0 +1,35 @@
+hive> CREATE TABLE joined(location STRING,Population BIGINT,newdeaths BIGINT,vaccinations BIGINT)
+    > ROW FORMAT DELIMITED
+    > FIELDS TERMINATED BY ',' ;
+OK
+Time taken: 0.116 seconds
+hive> INSERT INTO TABLE joined
+    > SELECT cv.location, c.Population, cv.newdeaths, cv.vaccinations
+    > FROM covid19 cv JOIN countries c ON (cv.location =
+    > c.Country);
+Query ID = bigdata_20210317015755_4a7d48ff-eb4f-440d-ba4d-1f5cac08a7a3
+Total jobs = 1
+2021-03-17 01:58:00,499 WARN  [main] util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Execution log at: /tmp/bigdata/bigdata_20210317015755_4a7d48ff-eb4f-440d-ba4d-1f5cac08a7a3.log
+2021-03-17 01:58:01	Starting to launch local task to process map join;	maximum memory = 518979584
+2021-03-17 01:58:02	Dump the side-table for tag: 1 with group count: 239 into file: file:/tmp/bigdata/a7d68687-5236-4858-afcd-a7ee001a7911/hive_2021-03-17_01-57-55_195_3067260082866014705-1/-local-10002/HashTable-Stage-4/MapJoin-mapfile11--.hashtable
+2021-03-17 01:58:03	Uploaded 1 File to: file:/tmp/bigdata/a7d68687-5236-4858-afcd-a7ee001a7911/hive_2021-03-17_01-57-55_195_3067260082866014705-1/-local-10002/HashTable-Stage-4/MapJoin-mapfile11--.hashtable (8022 bytes)
+2021-03-17 01:58:03	End of local task; Time Taken: 1.469 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 1 out of 1
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1615919369252_0033, Tracking URL = http://bigdatamaster:8088/proxy/application_1615919369252_0033/
+Kill Command = /home/bigdata/hadoop/hadoop-2.7.1/bin/hadoop job  -kill job_1615919369252_0033
+Hadoop job information for Stage-4: number of mappers: 1; number of reducers: 0
+2021-03-17 01:58:10,382 Stage-4 map = 0%,  reduce = 0%
+2021-03-17 01:58:19,691 Stage-4 map = 100%,  reduce = 0%, Cumulative CPU 2.94 sec
+MapReduce Total cumulative CPU time: 2 seconds 940 msec
+Ended Job = job_1615919369252_0033
+Loading data to table default.joined
+Table default.joined stats: [numFiles=1, numRows=66398, totalSize=1537782, rawDataSize=1471384]
+MapReduce Jobs Launched: 
+Stage-Stage-4: Map: 1   Cumulative CPU: 2.94 sec   HDFS Read: 2903257 HDFS Write: 1537860 SUCCESS
+Total MapReduce CPU Time Spent: 2 seconds 940 msec
+OK
+Time taken: 26.001 seconds
